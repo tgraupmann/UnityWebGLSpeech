@@ -1,5 +1,5 @@
 # UnityWebGLSpeech
-Unity WebGL Package for Speech Detection and Synthesis
+Unity WebGL Package for Speech Detection and Synthesis. [Online documentation](https://github.com/tgraupmann/UnityWebGLSpeech) is available.
 
 # See Also
 
