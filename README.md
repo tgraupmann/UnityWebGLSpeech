@@ -31,3 +31,13 @@ The [languages page](https://cloud.google.com/speech/docs/languages) shows what 
 # Changelog
 
 1.0 Initial creation of package
+
+# Scenes
+
+## Example01 - Dictation Synthesis
+
+The scene is located at `Assets/WebGLSpeech/Scenes/Example01_Dictation_Synthesis.unity`.
+
+The example source is located at `Assets/WebGLSpeech/Scripts/Example01DictationSynthesis.cs`.
+
+![image_1](images/image_1.png)
