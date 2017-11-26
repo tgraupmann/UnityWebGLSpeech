@@ -41,3 +41,11 @@ The scene is located at `Assets/WebGLSpeech/Scenes/Example01_Dictation_Synthesis
 The example source is located at `Assets/WebGLSpeech/Scripts/Example01DictationSynthesis.cs`.
 
 ![image_1](images/image_1.png)
+
+## Example02 - Dictation Synthesis
+
+The scene is located at `Assets/WebGLSpeech/Scenes/Example02_Dictation_Sbaitso.unity`.
+
+The example source is located at `Assets/WebGLSpeech/Scripts/Example02DictationSbaitso.cs`.
+
+![image_2](images/image_2.png)
