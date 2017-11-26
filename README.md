@@ -42,7 +42,7 @@ The example source is located at `Assets/WebGLSpeech/Scripts/Example01DictationS
 
 ![image_1](images/image_1.png)
 
-## Example02 - Dictation Synthesis
+## Example02 - Dictation Sbaitso
 
 The scene is located at `Assets/WebGLSpeech/Scenes/Example02_Dictation_Sbaitso.unity`.
 
