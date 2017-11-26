@@ -40,6 +40,8 @@ The scene is located at `Assets/WebGLSpeech/Scenes/Example01_Dictation_Synthesis
 
 The example source is located at `Assets/WebGLSpeech/Scripts/Example01DictationSynthesis.cs`.
 
+The [example demo](https://theylovegames.com/UnityWebGLSpeech_01DictationSynthesis/) is available online.
+
 ![image_1](images/image_1.png)
 
 ## Example02 - Dictation Sbaitso
@@ -47,5 +49,7 @@ The example source is located at `Assets/WebGLSpeech/Scripts/Example01DictationS
 The scene is located at `Assets/WebGLSpeech/Scenes/Example02_Dictation_Sbaitso.unity`.
 
 The example source is located at `Assets/WebGLSpeech/Scripts/Example02DictationSbaitso.cs`.
+
+The [example demo](https://theylovegames.com/UnityWebGLSpeech_02DictationSbaitso) is available online.
 
 ![image_2](images/image_2.png)
