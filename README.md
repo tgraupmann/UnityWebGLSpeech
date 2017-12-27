@@ -1,6 +1,7 @@
 # UnityWebGLSpeech
-Unity WebGL Package for Speech Detection and Synthesis.
-The `WebGL Speech package` is available in the [Unity Asset Store](https://assetstore.unity.com/packages/tools/audio/webgl-speech-105831). 
+The Unity `WebGL Speech` package combines speech detection and speech synthesis.
+
+The `WebGL Speech` package is available in the [Unity Asset Store](https://assetstore.unity.com/packages/tools/audio/webgl-speech-105831). 
 [Online documentation](https://github.com/tgraupmann/UnityWebGLSpeech) is available.
 
 # See Also
