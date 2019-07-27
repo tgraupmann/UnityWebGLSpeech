@@ -1,7 +1,7 @@
 # UnityWebGLSpeech
 The `WebGL Speech` package combines speech detection and speech synthesis.
 
-The `WebGL Speech` package is available in the [Unity Asset Store](https://assetstore.unity.com/packages/tools/audio/webgl-speech-105831). 
+The `WebGL Speech` package is available in the [Unity Asset Store](https://assetstore.unity.com/packages/tools/audio/webgl-speech-105831).
 [Online documentation](https://github.com/tgraupmann/UnityWebGLSpeech) is available.
 
 # See Also
@@ -34,6 +34,22 @@ The [languages page](https://cloud.google.com/speech/docs/languages) shows what 
 # Changelog
 
 1.0 Initial creation of package
+
+1.1 - Added support for `Speech Proxy`
+
+1.2 - Minor fixes
+
+1.3 - Added support for speech detection/synthesis in edit mode
+
+1.4 - Added support for `MacOS` for `play-mode` and `edit-mode`
+
+1.5 - Added example without GUI
+
+1.6 - Added buffering for language data
+
+1.7 - Cleaned up sample code
+
+1.8 - Updated sample scenes to use default 5000 port
 
 # Scenes
 
