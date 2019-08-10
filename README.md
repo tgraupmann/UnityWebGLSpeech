@@ -51,6 +51,8 @@ The [languages page](https://cloud.google.com/speech/docs/languages) shows what 
 
 1.8 - Updated sample scenes to use default 5000 port
 
+1.9 - Added support for 2018.1 and 2019.1.
+
 # Scenes
 
 ## Example01 - Dictation Synthesis
