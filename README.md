@@ -54,6 +54,17 @@ The [languages page](https://cloud.google.com/speech/docs/languages) shows what 
 
 1.9 - Added support for 2018.1 and 2019.1.
 
+# Guide
+
+* To avoid constant Microphone security prompts, host WebGL builds on secure HTTPS sites. Take a look at the online demos to see how that works.
+
+* WebGL can take a long while to build. For faster development, try the [Speech Proxy](https://github.com/tgraupmann/ConsoleChromeSpeechProxy). This enables speech in the editor and standalone Windoows/Mac builds without the long wait times.
+
+```
+Note: In December of 2018, Chrome added a speech restriction that the speak() method can't be invoked until a web page has some user interaction.
+https://www.chromestatus.com/feature/5687444770914304
+```
+
 # Scenes
 
 ## Example01 - Dictation Synthesis
