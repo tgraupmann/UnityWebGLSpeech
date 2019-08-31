@@ -60,6 +60,8 @@ The [languages page](https://cloud.google.com/speech/docs/languages) shows what 
 
 * WebGL can take a long while to build. For faster development, try the [Speech Proxy](https://github.com/tgraupmann/ConsoleChromeSpeechProxy). This enables speech in the editor and standalone Windoows/Mac builds without the long wait times.
 
+* Sometimes the browser speech mechanism can crash. It can happen. If speech stops working, just close all of the browser windows and relaunch which should fix the issue.
+
 <table border="1"><tr><td>
 Note: In December of 2018, Chrome added a speech restriction that the speak() method can't be invoked until a web page has some user interaction.
 
