@@ -91,3 +91,9 @@ The example source is located at `Assets/WebGLSpeech/Scripts/Example02DictationS
 The [example demo](https://theylovegames.com/UnityWebGLSpeech_02DictationSbaitso) is available online.
 
 ![image_2](images/image_2.png)
+
+# Support
+
+Send questions and/or feedback to the support@theylovegames.com email.
+
+Support is also available in Discord, you can reach me at "Tim Graupmann#0611".
