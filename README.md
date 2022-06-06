@@ -1,4 +1,5 @@
 # UnityWebGLSpeech
+
 The `WebGL Speech` package combines speech detection and speech synthesis.
 
 The `WebGL Speech` package is available in the [Unity Asset Store](https://assetstore.unity.com/packages/tools/audio/webgl-speech-105831).
@@ -25,7 +26,7 @@ The `WebGL for Speech Synthesis` package is available in the [Unity Asset Store]
 # Target
 
 The `Unity WebGL Speech Package` is created for Unity version `5.3` or better. This includes support for Unity 2017.X, 2018.X, and 2019.X.
-This package combines the `Unity WebGL Speech Detection` and `Unity WebGL Speech Synthesis ` packages.
+This package combines the `Unity WebGL Speech Detection` and `Unity WebGL Speech Synthesis` packages.
 This package was originally created for the `WebGL` platform and supports other platforms using a `Speech Proxy`.
 This package requires a browser with the built-in [Web Speech API](https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html), like Chrome.
 Speech detection and synthesis requires an Internet connection.
@@ -67,8 +68,12 @@ The [languages page](https://cloud.google.com/speech/docs/languages) shows what 
 <table border="1"><tr><td>
 Note: In December of 2018, Chrome added a speech restriction that the speak() method can't be invoked until a web page has some user interaction.
 
-https://www.chromestatus.com/feature/5687444770914304
+<https://www.chromestatus.com/feature/5687444770914304>
 </td></tr></table>
+
+* WebGL builds require iOS 15.5 or greater. Earlier versions will report a memory access violation.
+
+* Unity 2021.X or later introduced a build issue when plugins use Unicode. Use the following updated JS libraries instead: [Versions/2021.X/Assets/Plugins/WebGL/WebGLSpeechDetectionPlugin.jslib](Versions/2021.X/Assets/Plugins/WebGL/WebGLSpeechDetectionPlugin.jslib) and [Versions/2021.X/Assets/Plugins/WebGL/WebGLSpeechSynthesisPlugin.jslib](Versions/2021.X/Assets/Plugins/WebGL/WebGLSpeechSynthesisPlugin.jslib).
 
 # Scenes
 
