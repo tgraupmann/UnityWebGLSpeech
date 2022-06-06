@@ -55,6 +55,10 @@ The [languages page](https://cloud.google.com/speech/docs/languages) shows what 
 
 1.9 - Added support for 2018.1 and 2019.1.
 
+1.10 - Added support for 2020.X
+
+1.11 - Added support for 2021.X
+
 ## FAQ
 
 * To avoid constant Microphone security prompts, host WebGL builds on secure HTTPS sites. Take a look at the online demos to see how that works.
