@@ -87,7 +87,7 @@ Note: In December of 2018, Chrome added a speech restriction that the speak() me
 
 * [Versions/2021.X/Assets/WebGLSpeechDetection/Scripts](Versions/2021.X/Assets/WebGLSpeechDetection/Scripts)
 
-* [Versions/2021.X/Assets/WebGLSpeechDetection/Scripts](Versions/2021.X/Assets/WebGLSpeechDetection/Scripts)
+* [Versions/2021.X/Assets/WebGLSpeechSynthesis/Scripts](Versions/2021.X/Assets/WebGLSpeechSynthesis/Scripts)
 
 ## Scenes
 
