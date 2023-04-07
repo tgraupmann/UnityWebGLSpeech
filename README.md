@@ -33,6 +33,8 @@ Note: WebGL builds use the built-in browser to use the Speech API on PC/Mac/Andr
 With the `Speech Proxy` running, open a browser tab that relays `Speech API` calls to and from the browser.
 
 ![image_4](images/image_4.png)
+
+Only the `WebGL Speech` package in the [Unity Asset Store](https://assetstore.unity.com/packages/tools/audio/webgl-speech-105831) has example scenes that show using `Speech Detection` and `Speech Synthesis` together.
 </td></tr></table>
 
 ## Target
