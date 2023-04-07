@@ -23,9 +23,9 @@ The `WebGL for Speech Synthesis` package is available in the [Unity Asset Store]
 
 * Windows Unity Editor (using [Speech Proxy](https://github.com/tgraupmann/ConsoleChromeSpeechProxy))
 
-<div style="margin: 20px; padding: 20px; border: solid 1px white">
+<table border="1"><tr><td>
 Note: WebGL builds use the built-in browser to use the Speech API on PC/Mac/Android/iOS. In order to use the Speech API in standalone builds in the Unity Editor, you will need to configure and run the free <a target="_blank" href="https://github.com/tgraupmann/ConsoleChromeSpeechProxy">Speech Proxy</a>.
-</div>
+</td></tr></table>
 
 ## Target
 
@@ -39,7 +39,7 @@ The [languages page](https://cloud.google.com/speech/docs/languages) shows what 
 
 ## Changelog
 
-1.0 Initial creation of package
+1.0 - Initial creation of package
 
 1.1 - Added support for `Speech Proxy`
 
@@ -73,11 +73,11 @@ The [languages page](https://cloud.google.com/speech/docs/languages) shows what 
 
 * Sometimes the browser speech mechanism can crash. It can happen. If speech stops working, just close all of the browser windows and relaunch which should fix the issue.
 
-<div style="margin: 20px; padding: 20px; border: solid 1px white">
+<table border="1"><tr><td>
 Note: In December of 2018, Chrome added a speech restriction that the speak() method can't be invoked until a web page has some user interaction.
 
 <https://www.chromestatus.com/feature/5687444770914304>
-</div>
+</td></tr></table>
 
 * WebGL builds require iOS 15.5 or greater. Earlier versions will report a memory access violation.
 
