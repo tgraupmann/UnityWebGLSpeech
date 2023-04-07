@@ -26,7 +26,13 @@ The `WebGL Speech` package is available in the [Unity Asset Store](https://asset
 * Windows Unity Editor (using [Speech Proxy](https://github.com/tgraupmann/ConsoleChromeSpeechProxy))
 
 <table border="1"><tr><td>
-Note: WebGL builds use the built-in browser to use the Speech API on PC/Mac/Android/iOS. In order to use the Speech API in standalone builds in the Unity Editor, you will need to configure and run the free <a target="_blank" href="https://github.com/tgraupmann/ConsoleChromeSpeechProxy">Speech Proxy</a>.
+Note: WebGL builds use the built-in browser to use the Speech API on PC/Mac/Android/iOS. In order to use the Speech API in standalone builds and in the Unity Editor, you will need to configure and run the free <a target="_blank" href="https://github.com/tgraupmann/ConsoleChromeSpeechProxy">Speech Proxy</a>. The demo scenes have game objects to support the WebGL Plugins and the `Speech Proxy`.
+
+![image_3](images/image_3.png)
+
+With the `Speech Proxy` running, open a browser tab that relays `Speech API` calls to and from the browser.
+
+![image_4](images/image_4.png)
 </td></tr></table>
 
 ## Target
