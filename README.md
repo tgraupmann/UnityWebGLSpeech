@@ -93,14 +93,9 @@ The [languages page](https://cloud.google.com/speech/docs/languages) shows what 
 Note: In December of 2018, Chrome added a speech restriction that the speak() method can't be invoked until a web page has some user interaction.
 
 <https://www.chromestatus.com/feature/5687444770914304>
-</td></tr>
-<tr><td>
+</td></tr></table>
 
-* The WebGLSpeechSynthesis plugin now adds a full page `div` named `divActivateSpeechAPI` that initializes the Speech API when clicked to workaround the new browser security. An alternative div element named `divActivateSpeechAPI` can be added to the HTML5 page if you want to customize the visual look of this user interaction.
-
- ![image_6](images/image_6.png)
-</td></tr>
-</table>
+* The WebGLSpeechSynthesis plugin now adds a full page `div` named `divActivateSpeechAPI` that initializes the Speech API when clicked to work around the new browser security. An alternative div element named `divActivateSpeechAPI` can be added to the HTML5 page if you want to customize the visual look of this user interaction. ![image_6](images/image_6.png)
 
 * WebGL builds require iOS 15.5 or greater. Earlier versions will report a memory access violation.
 
