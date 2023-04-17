@@ -69,13 +69,15 @@ The [languages page](https://cloud.google.com/speech/docs/languages) shows what 
 
 1.7 - Cleaned up sample code
 
-1.8 - Updated sample scenes to use default 5000 port
+1.8 - Updated sample scenes to use default `5000` port
 
-1.9 - Added support for 2018.1 and 2019.1.
+1.9 - Added support for `2018.1` and `2019.1`.
 
-1.10 - Added support for 2020.X
+1.10 - Added support for `2020.X`
 
-1.11 - Added support for 2021.X
+1.11 - Added support for `2021.X`
+
+1.12 - Added support for `iOS 16.3.1`
 
 ## FAQ
 
@@ -91,7 +93,14 @@ The [languages page](https://cloud.google.com/speech/docs/languages) shows what 
 Note: In December of 2018, Chrome added a speech restriction that the speak() method can't be invoked until a web page has some user interaction.
 
 <https://www.chromestatus.com/feature/5687444770914304>
-</td></tr></table>
+</td></tr>
+<tr><td>
+
+* The WebGLSpeechSynthesis plugin now adds a full page `div` named `divActivateSpeechAPI` that initializes the Speech API when clicked to workaround the new browser security. An alternative div element named `divActivateSpeechAPI` can be added to the HTML5 page if you want to customize the visual look of this user interaction.
+
+ ![image_6](images/image_6.png)
+</td></tr>
+</table>
 
 * WebGL builds require iOS 15.5 or greater. Earlier versions will report a memory access violation.
 
@@ -105,7 +114,7 @@ The scene is located at `Assets/WebGLSpeech/Scenes/Example01_Dictation_Synthesis
 
 The example source is located at `Assets/WebGLSpeech/Scripts/Example01DictationSynthesis.cs`.
 
-The [example demo](https://theylovegames.com/UnityWebGLSpeech_01DictationSynthesis/) is available online.
+The [WebGLSpeech/Example01_Dictation_Synthesis demo](https://theylovegames.com/UnityWebGLSpeech_Demos/WebGLSpeech/Example01_Dictation_Synthesis/index.html) is available online.
 
 ![image_1](images/image_1.png)
 
@@ -115,7 +124,7 @@ The scene is located at `Assets/WebGLSpeech/Scenes/Example02_Dictation_Sbaitso.u
 
 The example source is located at `Assets/WebGLSpeech/Scripts/Example02DictationSbaitso.cs`.
 
-The [example demo](https://theylovegames.com/UnityWebGLSpeech_02DictationSbaitso) is available online.
+The [WebGLSpeech/Example02_Dictation_Sbaitso demo](https://theylovegames.com/UnityWebGLSpeech_Demos/WebGLSpeech/Example02_Dictation_Sbaitso/index.html) is available online.
 
 ![image_2](images/image_2.png)
 
