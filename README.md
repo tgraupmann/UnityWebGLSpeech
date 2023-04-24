@@ -103,7 +103,69 @@ Note: In December of 2018, Chrome added a speech restriction that the speak() me
 
 ## Scenes
 
-### Example01 - Dictation Synthesis
+---
+
+### WebGLSpeech Detection
+
+---
+
+#### Example01 - Dictation
+
+The scene is located at `Assets/WebGLSpeechDetection/Scenes/Example01_Dictation.unity`.
+
+The example source is located at `Assets/WebGLSpeechDetection/Scripts/Example01Dictation.cs`.
+
+The [WebGLSpeechDetection/Example01_Dictation demo](https://theylovegames.com/UnityWebGLSpeech_Demos/WebGLSpeechDetection/Example01_Dictation/index.html) is available online.
+
+![image_7](images/image_7.png)
+
+---
+
+#### Example02 - Dictation
+
+The scene is located at `Assets/WebGLSpeechDetection/Scenes/Example02_SpeechCommands.unity`.
+
+The example source is located at `Assets/WebGLSpeechDetection/Scripts/Example02SpeechCommands.cs`.
+
+The [WebGLSpeechDetection/Example02_SpeechCommands demo](https://theylovegames.com/UnityWebGLSpeech_Demos/WebGLSpeechDetection/Example02_SpeechCommands/index.html) is available online.
+
+![image_8](images/image_8.png)
+
+---
+
+### WebGLSpeech Synthesis
+
+---
+
+#### Example01 - Synthesis
+
+The scene is located at `Assets/WebGLSpeechSynthesis/Scenes/Example01Synthesis.unity`.
+
+The example source is located at `Assets/WebGLSpeechSynthesis/Scripts/Example01Synthesis.cs`.
+
+The [WebGLSpeechSynthesis/Example01_Synthesis demo](https://theylovegames.com/UnityWebGLSpeech_Demos/WebGLSpeechSynthesis/Example01_Synthesis/index.html) is available online.
+
+![image_9](images/image_9.png)
+
+---
+
+#### Example04 - Sbaitso Clone
+
+The scene is located at `Assets/WebGLSpeechSynthesis/Scenes/Example04SbaitsoClone.unity`.
+
+The example source is located at `Assets/WebGLSpeechSynthesis/Scripts/Example04SbaitsoClone.cs`.
+
+The [WebGLSpeechSynthesis/Example04_SbaitsoClone demo](https://theylovegames.com/UnityWebGLSpeech_Demos/WebGLSpeechSynthesis/Example04_SbaitsoClone/index.html) is available online.
+
+![image_10](images/image_10.png)
+
+---
+
+### WebGLSpeech
+
+---
+
+#### Example01 - Dictation Synthesis
 
 The scene is located at `Assets/WebGLSpeech/Scenes/Example01_Dictation_Synthesis.unity`.
 
@@ -113,7 +175,9 @@ The [WebGLSpeech/Example01_Dictation_Synthesis demo](https://theylovegames.com/U
 
 ![image_1](images/image_1.png)
 
-### Example02 - Dictation Sbaitso
+---
+
+#### Example02 - Dictation Sbaitso
 
 The scene is located at `Assets/WebGLSpeech/Scenes/Example02_Dictation_Sbaitso.unity`.
 
