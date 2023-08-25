@@ -191,4 +191,4 @@ The [WebGLSpeech/Example02_Dictation_Sbaitso demo](https://theylovegames.com/Uni
 
 Send questions and/or feedback to the support@theylovegames.com email.
 
-Support is also available in Discord, you can reach me at `Tim Graupmann#0611`.
+Support is also available in Discord, you can reach me at `tgraupmann`.
