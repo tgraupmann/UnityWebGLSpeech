@@ -101,6 +101,44 @@ Note: In December of 2018, Chrome added a speech restriction that the speak() me
 
 * Unity 2021.X or later introduced a build issue when plugins use Unicode. Use the latest Unity 2021.X package from the Unity Asset Store rather than upgrading from an earlier package.
 
+* Web hosting requires headers to support `Brotli compressed Unity WebGL` files. For Apache hosting you can use the following `.htaccess` settings.
+
+```
+# Handle Brotli compressed Unity WebGL files
+<IfModule mod_mime.c>
+    # Add MIME types for brotli files
+    AddType "application/octet-stream" .data.br
+    AddType "application/javascript" .js.br
+    AddType "application/wasm" .wasm.br
+</IfModule>
+
+<IfModule mod_headers.c>
+    # Set Content-Encoding for all .br files
+    <FilesMatch "\.br$">
+        Header always set Content-Encoding "br"
+    </FilesMatch>
+    
+    # Ensure no conflicting headers
+    <FilesMatch "\.br$">
+        Header unset Content-Length
+        Header unset ETag
+    </FilesMatch>
+</IfModule>
+
+# Handle gzipped files (your working example)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP:Accept-encoding} gzip
+  RewriteCond %{REQUEST_FILENAME}\.gz -f
+  RewriteRule ^(.*)\.unityweb$ $1\.unityweb\.gz [L]
+</IfModule>
+
+<FilesMatch "\.unityweb\.gz$">
+  ForceType application/octet-stream
+  Header set Content-Encoding gzip
+</FilesMatch>
+```
+
 ## Scenes
 
 ---
