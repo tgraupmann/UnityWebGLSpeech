@@ -100,6 +100,25 @@ Note: In December of 2018, Chrome added a speech restriction that the speak() me
 * WebGL builds require iOS 15.5 or greater. Earlier versions will report a memory access violation.
 
 * Unity 2021.X or later introduced a build issue when plugins use Unicode. Use the latest Unity 2021.X package from the Unity Asset Store rather than upgrading from an earlier package.
+ 
+* To disable Brotli (br) compression for a Unity WebGL build, you need to adjust the Compression Format setting within the Unity Editor's Player Settings.
+
+Follow these steps:
+
+Open your Unity project.
+
+Navigate to Edit > Project Settings > Player.
+
+In the Player Settings window, select the WebGL tab.
+
+Expand the Publishing Settings section.
+
+Locate the Compression Format dropdown menu.
+
+Change the value from "Brotli" (or "Gzip") to "Disabled".
+
+<img width="1071" height="663" alt="WebGL Publishing Settings" src="https://github.com/user-attachments/assets/0ac5df18-96da-46d0-b5f9-5f611ed43fd0" />
+
 
 * Web hosting requires headers to support `Brotli compressed Unity WebGL` files. For Apache hosting you can use the following `.htaccess` settings.
 
